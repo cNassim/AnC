@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Adiciona 14 velas ao bolo
-    for (let i = 0; i < 14; i++) {
+    for (let i = 0; i < 19; i++) {
         const left = Math.random() * 200 + 25; // Posição X aleatória dentro do bolo
         const top = Math.random() * 50 + 10; // Posição Y aleatória dentro do bolo
         addCandle(left, top);
